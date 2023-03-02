@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @footcard %>
+
+<div>
+  <%= link_to "Edit this footcard", edit_footcard_path(@footcard) %> |
+  <%= link_to "Back to footcards", footcards_path %>
+
+  <%= button_to "Destroy this footcard", @footcard, method: :delete %>
+</div>

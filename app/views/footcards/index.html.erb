@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Footcards</h1>
+
+<div id="footcards">
+  <% @footcards.each do |footcard| %>
+    <%= render footcard %>
+    <p>
+      <%= link_to "Show this footcard", footcard %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New footcard", new_footcard_path %>

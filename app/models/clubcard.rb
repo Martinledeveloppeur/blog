@@ -1,0 +1,2 @@
+class Clubcard < ApplicationRecord
+end

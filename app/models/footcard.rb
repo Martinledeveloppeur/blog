@@ -1,0 +1,2 @@
+class Footcard < ApplicationRecord
+end
